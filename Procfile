@@ -1,2 +1,1 @@
-Procfile
-Procfilek
+web: node app.js
