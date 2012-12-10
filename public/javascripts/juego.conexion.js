@@ -1,5 +1,7 @@
-var socketG = io.connect('http://localhost:3000/');
-var socket = io.connect('http://localhost:3000/juego');
+var url = location.protocol + '//' + location.host + '/';
+
+var socketG = io.connect(url);
+var socket = io.connect(url + 'juego');
 socket.emit('connect', function(err, ok) {
 	if (error) {
 		alert('Se produjo un error al conectar');

@@ -1,3 +1,7 @@
+# para subir a heroku
+node_modules
+
+
 #################
 ## Eclipse
 #################
